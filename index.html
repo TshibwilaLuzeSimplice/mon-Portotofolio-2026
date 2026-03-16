@@ -1,56 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portofolio</title>
+    <title>Mon portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
     <header>
-        <div>
-            <a href=""> Mon portofolio</a>
+        <div class="header">
+            <h1>Mon portfolio</h1>
+            <nav>
+                <ul class="links">
+                    <li><a href="#" class="selected">Accueil</a></li>
+                    <li><a href="#">Projets</a></li>
+                    <li><a href="#">Passions</a></li>
+                    <li><a href="#">Divertissement</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-
-        <nav>
-            <ul>
-                <li><a href=""> Acceuil </a></li>
-                <li><a href=""> Projets </a></li>
-                <li><a href=""> Passions </a></li>
-                <li><a href=""> Divertissement </a></li>
-                <li><a href=""> Contact </a></li>
-            </ul>
-        </nav>
     </header>
 
-
     <main>
-        <section>
-
-            <div>
-                <h1>Bonjour, je suis simplice</h1>
-                <p>etudiant en L2, passionné par les reseaux et telecommunications</p>
-                <a href="">voir mes projets</a>
-
+        
+        <section id="presentation">
+            <div class="left">
+                <h3>Bonjour, je suis Simplice</h3>
+                <p>Étudiant en L2 et passionné par le développement mobile, <br> réseaux et télécommunications.</p>
+                <button class="more">Voir mes projets</button>
             </div>
-
-            <div>
-                <img src="images/simplice.jpeg" alt="" width="200">
+            <div class="right">
+                <img src="/images/simplice.jpeg" alt="Photo de Simplice">
             </div>
-
         </section>
 
+  
+        <section id="about">
+            <h2>À propos de moi</h2>
+            <p class="infos">
+                Bonjour ! Je m'appelle TSHIBWILA LUZE SIMPLICE et je suis un étudiant polyvalent <br>
+                et motivé en informatique à l'UDBL. Passionné par le développement mobile, réseaux <br>
+                et télécommunications ainsi que la cybersécurité, je suis constamment à la recherche <br>
+                de nouvelles opportunités d'apprentissage et de défis stimulants.
+            </p>
+            <p class="infos2">
+                Au cours de mes études, j'ai développé de solides compétences en programmation. <br>
+                Je suis une personne rigoureuse, créative et j'aime travailler en équipe pour <br>
+                atteindre des objectifs communs. Mon objectif est de contribuer à des projets innovants, <br>
+                trouver un stage, et maîtriser Jetpack Compose, Flutter et la transmission satellitaire.
+            </p>
+        </section>
 
-        <section></section>
-        <section></section>
+       
+        <section id="skills">
+
+            <h2>Mes compétences</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Catégorie</th>
+                        <th>Compétences</th>
+                        <th>Niveau</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Programmation</td>
+                        <td>HTML, CSS, Python, C, Kotlin, Dart, Jetpack Compose</td>
+                        <td>Intermédiaire</td>
+                    </tr>
+                    <tr>
+                        <td>Réseaux</td>
+                        <td>CCNA 1, 2, 3</td>
+                        <td>Intermédiaire</td>
+                    </tr>
+                    <tr>
+                        <td>Télécom</td>
+                        <td>T. Sat, T. Radio, Rx mobiles</td>
+                        <td>Intermédiaire</td>
+                    </tr>
+                    <tr>
+                        <td>Langues</td>
+                        <td>Français, Anglais</td>
+                        <td>Intermédiaire</td>
+                    </tr>
+                    <tr>
+                        <td>Outils</td>
+                        <td>Android Studio, Packet Tracer, Wireshark</td>
+                        <td>Intermédiaire</td>
+                    </tr>
+                    <tr>
+                        <td>Soft skills</td>
+                        <td>Communication, Résolution de problèmes</td>
+                        <td>Intermédiaire</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </main>
 
-
-
-
-
-    <footer></footer>
-    
+    <footer>
+        <div id="footer">
+            <p>&copy;2026, Lubumbashi. Tous droits réservés.</p>
+            <div class="icons">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
